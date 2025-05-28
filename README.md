@@ -4,7 +4,6 @@
 
 - Aviation Safety Reporting System (ASRS) online database: https://asrs.arc.nasa.gov/search/database.html
 - National Transportation Safety Board (NTSB) aviation accident database [https://www.ntsb.gov/Pages/AviationQueryv2.aspx](https://data.ntsb.gov/avdata)
-- Federal Aviation Administration (FAA) https://www.faa.gov/data_research/accident_incident
 
 ## KPI's
 - Identify trends in how aviation safety has evolved over time and explore the causes of these trends,
