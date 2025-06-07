@@ -1,4 +1,4 @@
-IATA,ICAO,Airport name,Country,City,Information
+abrv,Code,Airport name,Country,City,Information
 AAA,NTGA,Anaa Airport,French Polynesia,Anaa,https://www.worlddata.info/oceania/french-polynesia/airports.php
 AAB,YARY,Arrabury Airport,Australia,Tanbar,https://www.worlddata.info/oceania/australia/airports.php
 AAC,HEAR,El Arish International Airport,Egypt,El Arish,https://www.worlddata.info/africa/egypt/airports.php
