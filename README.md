@@ -23,11 +23,17 @@
 - The main question we agreed on is ``which factors influence aviation safety across time''. But we also discussed whether we are interested in an explanatory model versus a predictive model, and most voted on a predictive model.
 
 # Some notes about what data suggests so far
-- If we do an ordinary linear regression with time as a feature variable, and months as categorical variables, with "number of accidents per month" as the target variable, the coefficient of "year" is negative (p-value is essentially zero), so accidents are decreasing yearly. If we just do the regression with months or time as a single feature variable, the test is inconclusive (I think this is because there is huge monthly variation within years). 
+- If we do an ordinary linear regression with time as a feature variable, and months as categorical variables, with "number of accidents per month" as the target variable, the coefficient of "year" is negative (p-value is essentially zero), so accidents are definitely decreasing yearly. The adjusted $R^2$ for this model is 0.208.
+- If we just do the regression with months or time as a single feature variable, the test is inconclusive (I think this is because there is huge monthly variation within years), and the adjusted $R^2$ is 0.025 (poor). 
+- If we add in the percentage of accidents due to human factors in each month as a feature variable. The coefficient of "year" becomes positive. If we look at the correlation between "year" and "percentage of accidents due to human factors", there is a negative correlation -0.328, which means that the percentage of accidents due to human factors has decreased over time. I think this means that much of the decrease in total accidents may be due to the decrease in accidents due to human factors. The main other "Primary Problem" for accidents other than human factors is "Aircraft", so maybe it could be interesting if we could conclusively say e.g. that human errors in aviation safety have decreased over time, but aircraft problems have increased. If true, we could further try to identify the problem to then make safety recommendations. 
+- If we further add in "percentage of accidents FAR 91", it becomes more complicated.
+- We did a time series forecast using ARIMA/SARIMA.
 
 # Meeting  6/9
 - Does airports.csv need to be changed to airport_codes.csv?
 - Does it make sense to use percentages as features (e.g. pct human factors, pct FAR 91)?
+- How to add in location as features in meaningful way?
+- How to do the train test split for forecasting? (Or how to avoid overfitting). 
 
 
 
