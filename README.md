@@ -29,12 +29,6 @@
 - If we further add in "percentage of accidents FAR 91", it becomes more complicated.
 - We did a time series forecast using ARIMA/SARIMA.
 
-# Meeting  6/9
-- Does airports.csv need to be changed to airport_codes.csv?
-- Does it make sense to use percentages as features (e.g. pct human factors, pct FAR 91)?
-- How to add in location as features in meaningful way?
-- How to do the train test split for forecasting? (Or how to avoid overfitting). 
-
 
 
 
