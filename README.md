@@ -27,7 +27,7 @@
 - If we just do the regression with months or time as a single feature variable, the test is inconclusive (I think this is because there is huge monthly variation within years), and the adjusted $R^2$ is 0.025 (poor). 
 - If we add in the percentage of accidents due to human factors in each month as a feature variable. The coefficient of "year" becomes positive. If we look at the correlation between "year" and "percentage of accidents due to human factors", there is a negative correlation -0.328, which means that the percentage of accidents due to human factors has decreased over time. I think this means that much of the decrease in total accidents may be due to the decrease in accidents due to human factors. The main other "Primary Problem" for accidents other than human factors is "Aircraft", so maybe it could be interesting if we could conclusively say e.g. that human errors in aviation safety have decreased over time, but aircraft problems have increased. If true, we could further try to identify the problem to then make safety recommendations. 
 - If we further add in "percentage of accidents FAR 91", it becomes more complicated.
-- We did a time series forecast using ARIMA/SARIMA.
+- We did a time series forecast using ARIMA/SARIMA, and some other plots.
 
 
 
