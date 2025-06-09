@@ -18,7 +18,16 @@
 - Policymakers and government officials
 - Airlines and aircraft operators
 
-# Meeting 6/9
+# Meeting 6/2
+
+- The main question we agreed on is ``which factors influence aviation safety across time''. But we also discussed whether we are interested in an explanatory model versus a predictive model, and most voted on a predictive model.
+
+# Some notes about what data suggests so far
+- If we do an ordinary linear regression with time as a feature variable, and months as categorical variables, with "number of accidents per month" as the target variable, the coefficient of "year" is negative (p-value is essentially zero), so accidents are decreasing yearly. If we just do the regression with months or time as a single feature variable, the test is inconclusive (I think this is because there is huge monthly variation within years). 
+
+# Meeting  6/9
+- Does airports.csv need to be changed to airport_codes.csv?
+- Does it make sense to use percentages as features (e.g. pct human factors, pct FAR 91)?
 
 
 
