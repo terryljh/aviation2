@@ -20,7 +20,7 @@
 
 # Meeting 6/2
 
-- The main question we agreed on is ``which factors influence aviation safety across time''. But we also discussed whether we are interested in an explanatory model versus a predictive model, and most voted on a predictive model.
+- (From what I can remember) The main question we agreed on is ``which factors influence aviation safety across time''. But we also discussed whether we are interested in an explanatory model versus a predictive model, and most voted on a predictive model.
 
 # Some notes about what data suggests so far
 - If we do an ordinary linear regression with time as a feature variable, and months as categorical variables, with "number of accidents per month" as the target variable, the coefficient of "year" is negative (p-value is essentially zero), so accidents are definitely decreasing yearly. The adjusted $R^2$ for this model is 0.208.
