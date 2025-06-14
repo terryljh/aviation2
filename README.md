@@ -32,6 +32,22 @@ All train test splits use random seed 945.
 - If we redo the above but restrict to commercial flights (FAR Part 121), the accidents due to human factors are decreasing over time (both percentage and number), and the number of accidents due to aircraft is decreasing over time. We cannot reject the null hypothesis that the proportion of accidents due to aircraft has remained constant over time ($p \approx 0.72$). 
 - We did a time series forecast using ARIMA/SARIMA, and some other plots.
 
+# Some suggestions copy-pasted from slack
+- We'd like to continue with predictive modeling, answering some questions like:
+  - Can we predict the number of aviation incidents over the next year? (Mean, variance; probably not exact number)
+  - Is the number of incidents on the rise?
+
+- Some ideas for timeseries analysis:
+  - Month-by-month
+  - Bin by year
+  - Bin by larger concrete chunks (decade? 5-year periods?)
+
+- We'd also like to understand the drivers of incidents over the study period. Some ideas include,
+  - How do the primary causes of incidents change over time? Human factors, ATC, aircraft failure, weather? 
+  - Where are accidents occurring in airspace?
+  - Where are accidents occurring geographically?
+  - What type of aircraft are experiencing the most incidents? (Are Boeing aircraft, as public perception seems to indicate, less safe than Airbus/Embraer/other aircraft?)
+
 
 
 
