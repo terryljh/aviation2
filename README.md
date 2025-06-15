@@ -38,7 +38,7 @@ All train test splits use random seed 945.
         - Incidents due to "Human Factors" are decreasing yearly ($p = 0.024$, $\sim 1000$ incidents per year, coefficient of year is $-22$),
         - Incidents due to "Aircraft" are decreasing yearly ($p = 0.014$, $\sim 1000$ incidents per year, coefficient of year is $-24.78$),
         - Incidents due to "Company Policy" are decreasing yearly ($p = 0.000$, coefficient of year is $-17.23$). On average there were around 100 incidents per year due to "Company Policy", but by 2023 they decreased to effectively zero.
-    - At a guess, only 40-50% of incidents report information about the airspace, but if we restrict incidents to airspace, then:
+    - At a guess, only 50% of incidents report information about the airspace, but if we restrict incidents to airspace, then:
         - For Class A airspace there is no statistically significant trend, but if we exclude outliers 2006-2008 which seem to have no data, there is clear decrease in the incidents over time ($p= 0.007$, coefficient of year is $-12.14$, around 350 yearly incidents on average).
         - For Class B airspace there is no statistically significant trend, over any range of years (on average around 300 incidents per year).
         - For Class C airspace, (on average around 150 incidents per year), there is a clear *increase* in incidents over time ($p = 0.006$). The coefficient of year is 6.40, with a 95% confidence interval for the year being $[2.267,10.529]$. 
