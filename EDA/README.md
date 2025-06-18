@@ -9,7 +9,7 @@ In accidents per state we can see that the top 3 states for accidents included C
 ![Accidents per State](accidents_per_state.png)
 
 ## Accidents per State
-In accidents per state we can see that the top 3 states for accidents have been decreasing over time, especially since the year of 
+In accidents per state we can see that the top 3 states for accidents have been decreasing over time, especially since the year of 2015, where accident rates where at their peak. 
 ![Accidents per top 3 states](accidents_per_top_3_states.png)
 
 ## Accidents per Country
