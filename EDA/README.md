@@ -1,9 +1,13 @@
 # Exploratory Data Analysis
 First we began by exploring the data by looking at the following features:
+- accidents over time
 - accidents per state
 - accidents in the top 3 states over time 
 - accidents per country
-- 
+
+## Accidents over Time
+
+![Accidents per Year](accidents_per_year.png)
 ## Accidents per State
 In accidents per state we can see that the top 3 states for accidents included California, Texas, and Florida. 
 ![Accidents per State](accidents_per_state.png)
