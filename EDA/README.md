@@ -6,7 +6,7 @@ First we began by exploring the data by looking at the following features:
 - accidents per country
 
 ## Accidents over Time
-
+From the scatterplot, accidents appear to be decreasing over time, although it is not super clear and further investigation is needed. 
 ![Accidents per Year](accidents_per_year.png)
 ## Accidents per State
 In accidents per state we can see that the top 3 states for accidents included California, Texas, and Florida. 
