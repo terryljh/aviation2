@@ -5,11 +5,11 @@ First we began by exploring the data by looking at the following features:
 - accidents per country
 - 
 ## Accidents per State
-In accidents per state we can see that the top 3 states for accidents included California, Florida, and Texas. 
+In accidents per state we can see that the top 3 states for accidents included California, Texas, and Florida. 
 ![Accidents per State](accidents_per_state.png)
 
 ## Accidents per State
-In accidents per state we can see that the top 3 states for accidents included California, Florida, and Texas. 
+In accidents per state we can see that the top 3 states for accidents have been decreasing over time, especially since the year of 
 ![Accidents per top 3 states](accidents_per_top_3_states.png)
 
 ## Accidents per Country
