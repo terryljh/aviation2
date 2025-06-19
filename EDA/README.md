@@ -5,6 +5,8 @@ First we began by exploring the data by looking at the following features:
 - accidents in the top 3 states over time 
 - accidents per country
 - accidents by FAR 121 and Airspace Category
+- accidents by different FAR parts
+- accidents by time of day
 
 
 ## Accidents over Time
