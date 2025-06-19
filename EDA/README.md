@@ -4,6 +4,8 @@ First we began by exploring the data by looking at the following features:
 - accidents per state
 - accidents in the top 3 states over time 
 - accidents per country
+- accidents by FAR 121 and Airspace Category
+
 
 ## Accidents over Time
 From the scatterplot, accidents appear to be decreasing over time, although it is not super clear and further investigation is needed. 
