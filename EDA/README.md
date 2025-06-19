@@ -12,10 +12,36 @@ From the scatterplot, accidents appear to be decreasing over time, although it i
 In accidents per state we can see that the top 3 states for accidents included California, Texas, and Florida. 
 ![Accidents per State](accidents_per_state.png)
 
-## Accidents per State
+## Accidents per Top 3 States Over Time
 In accidents per state we can see that the top 3 states for accidents have been decreasing over time, especially since the year of 2015, where accident rates where at their peak. 
 ![Accidents per top 3 states](accidents_per_top_3_states.png)
 
 ## Accidents per Country
 This dataset was of flights coming from the United States to a different country so it makes sense that the United States had the highest incident rate, followed by the Philippines
 ![Accidents per Country](accidents_per_country.png)
+
+## Accidents by FAR 121 and Airspace Category
+
+We examined how accidents under **FAR 121 (commercial operations)** were distributed across different types of airspace. Below are the barplots broken down by airspace classifications A through E.
+
+### Overall Accidents Under FAR 121
+This chart shows total accident counts for FAR 121, regardless of airspace.
+
+![Accidents FAR 121](accidents_far_121.png)
+
+
+### Accidents in Airspace A
+![Accidents Airspace A](accidents_FAR_121_Airspace_A.png)
+
+### Accidents in Airspace B
+![Accidents Airspace B](accidents_FAR_121_Airspace_B.png)
+
+### Accidents in Airspace C
+![Accidents Airspace C](accidents_FAR_121_Airspace_C.png)
+
+### Accidents in Airspace D
+![Accidents Airspace D](accidents_FAR_121_Airspace_D.png)
+
+### Accidents in Airspace E
+![Accidents Airspace E](accidents_FAR_121_Airspace_E.png)
+
