@@ -22,7 +22,7 @@ This dataset was of flights coming from the United States to a different country
 
 ## Accidents by FAR 121 and Airspace Category
 
-We examined how accidents under **FAR 121 (commercial operations)** were distributed across different types of airspace. Below are the barplots broken down by airspace classifications A through E.
+We examined how accidents under **FAR 121 (commercial operations)** were distributed across different types of airspace. Below are the scatterplots broken down by airspace classifications A through E.
 
 ### Overall Accidents Under FAR 121
 This chart shows total accident counts for FAR 121, regardless of airspace.
