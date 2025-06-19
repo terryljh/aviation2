@@ -47,3 +47,32 @@ This chart shows total accident counts for FAR 121, regardless of airspace.
 ### Accidents in Airspace E
 ![Accidents Airspace E](accidents_FAR_121_Airspace_E.png)
 
+## Accidents by Time of Day
+
+We also examined when accidents occurred across different times of day. This plot helps highlight any trends associated with daylight vs night operations.
+
+![Accidents by Time of Day](accidents_by_time_of_day.png)
+
+---
+
+## Accidents by FAR Part
+
+The Federal Aviation Regulations (FARs) categorize aviation operations into different parts. Below we show how accident counts differ across **Part 91**, **Part 121**, and **Part 135** operations.
+
+### Part 91: General Aviation (non-commercial)
+
+![Accidents FAR 91](accidents_FAR_91.png)
+
+---
+
+### Part 121: Scheduled Air Carriers (e.g., airlines)
+
+![Accidents FAR 121](accidents_far_121.png)
+
+---
+
+### Part 135: On-Demand Charter, Air Taxi, etc.
+
+![Accidents FAR 135](accidents_FAR_135.png)
+
+
