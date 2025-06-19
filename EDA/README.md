@@ -77,4 +77,10 @@ The Federal Aviation Regulations (FARs) categorize aviation operations into diff
 
 ![Accidents FAR 135](accidents_FAR_135.png)
 
+## Top 10 Aircraft Models Involved in Accidents
+
+This visualization shows which aircraft models were most frequently involved in reported accidents. It gives insight into which aircraft are most commonly used or may be more prone to incidents (although raw counts do not reflect usage rates).
+
+![Top 10 Aircraft Models](top_10_aircraft_models.png)
+
 
