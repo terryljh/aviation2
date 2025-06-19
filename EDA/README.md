@@ -79,8 +79,7 @@ The Federal Aviation Regulations (FARs) categorize aviation operations into diff
 
 ## Top 10 Aircraft Models Involved in Accidents
 
-This visualization shows which aircraft models were most frequently involved in reported accidents. It gives insight into which aircraft are most commonly used or may be more prone to incidents (although raw counts do not reflect usage rates).
-
+This visualization shows which aircraft models were most frequently involved in reported accidents. It gives insight into which aircraft are most commonly used or may be more prone to incidents with commercial fixed wing being the highest.
 ![Top 10 Aircraft Models](top_10_aircraft_models.png)
 
 
