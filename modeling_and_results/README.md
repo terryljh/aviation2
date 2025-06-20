@@ -98,7 +98,7 @@ fitting the data, where time $t$ is measured in years, and $K$ is to be chosen. 
 With this setup there is clearer evidence of seasonal effects; the parameter $\gamma_2$ is not zero ($p= 0.009$). From the picture we can see there is a lot of unexplained variance; the adjusted $R^2$ is $0.315$. As might be expected by parameter counting, using $K=6$ is enough to match the $R^2$ and adjusted $R^2$ values of one-hot encoding (0.362 and 0.317), but the picture below shows only a smooth improvement to accuracy. 
 
 <p align="center">
-          <img src="sixperiods.png" alt="Trend in incidents" width="400">
+          <img src="6periods.png" alt="Trend in incidents" width="400">
 </p>
 
 - If we specialise instead to Part 91 flights, than almost every non-Winter month has a statistically significant positive coefficient (this is likely because far fewer Part 91 flights occur during the Winter, whereas Part 121 flights continue throughout Winter).
