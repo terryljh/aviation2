@@ -36,9 +36,7 @@ To better understand trends in aviation accidents, we applied both linear regres
           <img src="companypolicy.png" alt="Trend in incidents" width="400">
       </p>
     - At a guess, only 50% of incidents report information about the airspace, but if we restrict incidents to airspace, then:
-        - For Classes A, B, E airspace, and for those with airspace not specified, there is clear decrease in the incidents over time.
-
-      <table>
+      - For Classes A, B, E airspace, and for those with airspace not specified, there is clear decrease in the incidents over time.<table>
   <tr>
     <td align="center">
       <img src="airspaceA.png" alt="Airspace A" width="300"><br>
