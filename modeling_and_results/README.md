@@ -31,7 +31,7 @@ To better understand trends in aviation accidents, we applied both linear regres
       <p align="center">
           <img src="aircraft.png" alt="Trend in incidents" width="400">
       </p>
-    - Incidents due to "Company Policy" are decreasing yearly ($p = 0.000$, coefficient of year is $-17.23$). On average there were around 100 incidents per year due to "Company Policy", but by 2023 they decreased to effectively zero. This is one of the most significant part of this particular dataset; it seems to suggest that companies are actually responding quite well to feedback, especially considering that the ASRS data is anonymised. 
+    - Incidents due to "Company Policy" are decreasing yearly ($p = 0.000$, coefficient of year is $-17.23$). On average there were around 100 incidents per year due to "Company Policy", but by 2023 they decreased to effectively zero. This is one of the most significant part of this particular dataset; it seems to suggest that companies are actually responding quite well to feedback, especially considering that the ASRS data is anonymised. The variance is fairly well explained by the linear fit ($R^2 = 0.710$). 
       <p align="center">
           <img src="companypolicy.png" alt="Trend in incidents" width="400">
       </p>
