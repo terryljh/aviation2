@@ -128,4 +128,5 @@ With a five year forecast, it appears that accident rates tend to stay relativel
 ## Conclusion
 
 # Recommendations
+For commercial (Far Part 121) flights, the only airspace with some evidence for an increasing trend of incidents was airspace D. This suggests that factors particular to this airspace could be looked into for further safty improvements. For example, one factor that distinguishes airspace D from airspaces A,B,C, is that primary airports in airspace D do not provide radar services, so one recommendation could be improved training in this setting. 
 
