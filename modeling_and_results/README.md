@@ -28,18 +28,29 @@ To better understand trends in aviation accidents, we applied both linear regres
     - Incidents due to "Company Policy" are decreasing yearly ($p = 0.000$, coefficient of year is $-17.23$). On average there were around 100 incidents per year due to "Company Policy", but by 2023 they decreased to effectively zero.
     - At a guess, only 50% of incidents report information about the airspace, but if we restrict incidents to airspace, then:
         - For Classes A, B, E airspace, and for those with airspace not specified, there is clear decrease in the incidents over time.
-      <p align="center">
-          <img src="airspaceA.png" alt="Trend in incidents" width="400">
-      </p>
-      <p align="center">
-          <img src="airspaceB.png" alt="Trend in incidents" width="400">
-      </p>
-      <p align="center">
-          <img src="airspaceE.png" alt="Trend in incidents" width="400">
-      </p>
-      <p align="center">
-          <img src="noairspace.png" alt="Trend in incidents" width="400">
-      </p>
+
+      <table>
+  <tr>
+    <td align="center">
+      <img src="airspaceA.png" alt="Airspace A" width="300"><br>
+      <sub>Airspace A</sub>
+    </td>
+    <td align="center">
+      <img src="airspaceB.png" alt="Airspace B" width="300"><br>
+      <sub>Airspace B</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="airspaceE.png" alt="Airspace E" width="300"><br>
+      <sub>Airspace E</sub>
+    </td>
+    <td align="center">
+      <img src="noairspace.png" alt="No Airspace" width="300"><br>
+      <sub>No Airspace</sub>
+    </td>
+  </tr>
+</table>
       
         - For Class C airspace, there is no statistically significant trend. 
         - For Class D airspace, there is an *increase* in incidents over time, but it is only marginally significant ($p = 0.054$), on average around 50 incidents per year.
