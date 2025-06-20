@@ -36,8 +36,11 @@ To better understand trends in aviation accidents, we applied both linear regres
 - If we redo the above but restrict to commercial flights (FAR Part 121), the accidents due to human factors are decreasing over time (both percentage and number), and the number of accidents due to aircraft is decreasing over time. We cannot reject the null hypothesis that the proportion of accidents due to aircraft has remained constant over time ($p \approx 0.72$).
 
 ## SARIMA Model Outputs
+We used SARIMA models because they are well-suited for time series data that exhibit trends and non-stationarity. The plot above shows the results of a SARIMA model applied to historical aviation incident data. In the SARIMA forecasts below, the blue line represents actual data from approximately 2006 up until 2024, and the green line shows the forecast into 2024 and beyond. The shaded gray area reflects the 95% confidence interval of the forecast.
+
 
 ### SARIMA 121
+Here, we conducted the SARIMA with part 121. While the early years (e.g., 2006–2009) saw higher and more volatile accident counts, the SARIMA model predicts that future rates will remain comparatively lower and more stable. This may suggest improvements in safety protocols or technology, though further analysis would be needed to confirm causal factors.
 ![SARIMA 121](SARIMA_121.png)  
 ![SARIMA 121 Zoomed](SARIMA_121_Zoomed.png)  
 ![SARIMA 121_Extended](SARIMA_121_Extended.png) 
@@ -46,6 +49,7 @@ To better understand trends in aviation accidents, we applied both linear regres
 ![SARIMA Forecast 121](SARIMA_Forcast_121.png)  
 
 ## SARIMA 91 
+Here, we conducted the SARIMA with part 91. While the early years (e.g., 2006–2009) saw higher and more volatile accident counts, the SARIMA model predicts that future rates will remain comparatively lower and more stable. This may suggest improvements in safety protocols or technology, though again, further analysis would be needed to confirm causal factors.
 ![SARIMA Forecast 91](SARIMA_Forecast_91.png)  
 ![SARIMA Forecast 5 Years](SARIMA_Forecast_5_years.png) 
 
