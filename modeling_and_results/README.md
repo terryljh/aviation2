@@ -16,16 +16,16 @@ To better understand trends in aviation accidents, we applied both linear regres
 
   - If, still within FAR Part 121, we further restrict incidents according to their "Primary Problem", then:
     - There are no statistically significant trends for:
-           - "Procedure" ($\sim 300$ incidents per year, but not introduced as a category until 2009)
-           - "Weather" ($\sim 100$ incidents per year)
-           - "Environment - Non Weather Related" ($\sim 75$ incidents per year)
-           - "ATC Equipment / Nav Facility / Buildings" ($\sim 50$ incidents per year),
-           -  "Chart or publication ($\sim 50$ incidents per year)
-           -  "Airspace structure ($\sim 20$ incidents per year)
-           -  "Software and Automation" ($\sim 20$ incidents per year)
-        - Incidents due to "Human Factors" are decreasing yearly ($p = 0.024$, $\sim 1000$ incidents per year, coefficient of year is $-22$),
-        - Incidents due to "Aircraft" are decreasing yearly ($p = 0.014$, $\sim 1000$ incidents per year, coefficient of year is $-24.78$),
-        - Incidents due to "Company Policy" are decreasing yearly ($p = 0.000$, coefficient of year is $-17.23$). On average there were around 100 incidents per year due to "Company Policy", but by 2023 they decreased to effectively zero.
+      - "Procedure" ($\sim 300$ incidents per year, but not introduced as a category until 2009)
+      - "Weather" ($\sim 100$ incidents per year)
+      - "Environment - Non Weather Related" ($\sim 75$ incidents per year)
+      - "ATC Equipment / Nav Facility / Buildings" ($\sim 50$ incidents per year),
+      -  "Chart or publication ($\sim 50$ incidents per year)
+      -  "Airspace structure ($\sim 20$ incidents per year)
+      -  "Software and Automation" ($\sim 20$ incidents per year)
+    - Incidents due to "Human Factors" are decreasing yearly ($p = 0.024$, $\sim 1000$ incidents per year, coefficient of year is $-22$),
+    - Incidents due to "Aircraft" are decreasing yearly ($p = 0.014$, $\sim 1000$ incidents per year, coefficient of year is $-24.78$),
+    - Incidents due to "Company Policy" are decreasing yearly ($p = 0.000$, coefficient of year is $-17.23$). On average there were around 100 incidents per year due to "Company Policy", but by 2023 they decreased to effectively zero.
     - At a guess, only 50% of incidents report information about the airspace, but if we restrict incidents to airspace, then:
         - For Classes A, B, E airspace, and for those with airspace not specified, there is clear decrease in the incidents over time.
         - For Class C airspace, there is no statistically significant trend. 
