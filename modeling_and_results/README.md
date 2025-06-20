@@ -10,7 +10,6 @@ To better understand trends in aviation accidents, we applied both linear regres
 </p>
 
  - If we redo this considering only data from commercial flights (FAR Part 121), there is much less unexplained variance ($R^2 = 0.696$), and there is still a clear decreasing trend over time ($p=0.000$).
-
 <div style="text-align: center;">
           <img src="yearincidence121.png" alt="Trend in incidents" width="400" />
         </div>
