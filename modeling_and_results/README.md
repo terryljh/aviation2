@@ -62,8 +62,7 @@ To better understand trends in aviation accidents, we applied both linear regres
 </table>
       
    - For Class C airspace, there is no statistically significant trend. 
-   - For Class D airspace, there is an *increase* in incidents over time, but it is only marginally significant ($p = 0.054$), on average around 50 incidents per year.
-<p align="center">
+   - For Class D airspace, there is an *increase* in incidents over time, but it is only marginally significant ($p = 0.054$), on average around 50 incidents per year. <p align="center">
           <img src="airspaceD.png" alt="Trend in incidents" width="400">
 </p>
   - If instead of commerical flights, we consider Far Part 91 (general aviation, non-commerical flights), incident counts are increasing over time ($p = 0.016$). Because reporting incidents for Part 91 flights is likely less standardised than for commerical flights, it is possible the increasing trend here is result of increased reporting (or just an increased number of flights taken). 
