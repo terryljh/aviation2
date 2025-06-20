@@ -24,7 +24,7 @@
 
 # Some notes about data so far
 All train test splits use random seed 945. 
-- If we regress yearly number of accidents on the year, from 2006 through 2024, the accidents decrease over time ($p = 0.023$). The $R^2$ value is $0.337$, adjusted $R^2$ is $0.286$.
+- If we do linear regression on the yearly number of accidents, with year as the "predictor" and "number of accidents" as the target, from 2006 through 2024, the accidents decrease over time ($p = 0.023$). The $R^2$ value is $0.337$, adjusted $R^2$ is $0.286$.
 -  If we redo this only on commerical flights (FAR Part 121), the $R^2$ value increased to $0.702$ (adjusted $0.679$), and the $p$ value for the coefficient of year is zero (to 3 decimal places).
     -  If we further restrict incidents according to their "Primary Problem", then:
         - There are no statistically significant trends for:
