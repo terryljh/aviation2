@@ -101,7 +101,7 @@ With this setup there is clearer evidence of seasonal effects; the parameter $\g
           <img src="12harmonics.png" alt="Trend in incidents" width="400">
 </p>
 
-- If we specialise instead to Part 91 flights, than almost every non-winter month has a statistically significant positive coefficient (this is likely because far fewer Part 91 flights occur during the winter, whereas Part 121 flights continue throughout winter).
+- If we specialise instead to Part 91 flights, with one-hot encoding of months as categorical variables, then almost every non-winter month has a statistically significant positive coefficient (this is likely because far fewer Part 91 flights occur during the winter, whereas Part 121 flights continue throughout winter).
 
 ## SARIMA Model Outputs
 We used SARIMA models because they are well-suited for time series data that exhibit trends and non-stationarity. The plots below show the results of a SARIMA model applied to historical aviation incident data. In the SARIMA forecasts below, the blue line represents actual data from approximately 2006 up until 2024, and the green line shows the forecast into 2024 and beyond. The shaded gray area reflects the 95% confidence interval of the forecast.
