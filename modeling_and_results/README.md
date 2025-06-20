@@ -84,7 +84,12 @@ To better understand trends in aviation accidents, we applied both linear regres
   
 - If we restrict to Far Part 135 (other types of commercial flights such as charter flights), there is no statistically significant trend. There is much less data for Part 135 than 121 and 91 (about 60000 Part 121 incidents,  27000 Part 91, 4000 Part 135, 1000 other).
 
-- If we do an ordinary linear regression with "year" as a feature variable,  months as categorical variables and January as the baseline, with "number of incidents per month" for FAR Part 121 as the target variable, then generally there are more incidents in July than January, and fewer incidents in February than January, and with all other months falling somewhere in-between. The only statistically significant month is February which has a negative coefficient (less accidents in February versus January), (this is likely exaggerated by February having the least number of days). The number of incidents month-to-month is more variable than per-year, so our $R^2$ is much smaller $0.362$. Instead of one-hot-encoding the months, we also tried cyclically encoding the months, meaning that we try to find the best curve of the form $y(t) = \beta_0 + \beta_1 t + \sum_{k=1}^{K} \left[ \alpha_k \sin\left(2\pi k \cdot \frac{t}{12} \right) + \gamma_k \cos\left(2\pi k \cdot \frac{t}{12} \right) \right]$ fitting the data. 
+- If we do an ordinary linear regression with "year" as a feature variable,  months as categorical variables and January as the baseline, with "number of incidents per month" for FAR Part 121 as the target variable, then generally there are more incidents in July than January, and fewer incidents in February than January, and with all other months falling somewhere in-between. The only statistically significant month is February which has a negative coefficient (less accidents in February versus January), (this is likely exaggerated by February having the least number of days). The number of incidents month-to-month is more variable than per-year, so our $R^2$ is much smaller $0.362$. Instead of one-hot-encoding the months, we also tried cyclically encoding the months, meaning that we try to find the best curve of the form
+
+$$y(t) = \beta_0 + \beta_1 t + \sum_{k=1}^{K} \left[ \alpha_k \sin\left(2\pi k \cdot \frac{t}{12} \right) + \gamma_k \cos\left(2\pi k \cdot \frac{t}{12} \right) \right]
+$$ 
+
+fitting the data. 
 
 - If we specialise instead to Part 91 flights, than almost every non-Winter month has a statistically significant positive coefficient (this is likely because far fewer Part 91 flights occur during the Winter, whereas Part 121 flights continue throughout Winter).
 
