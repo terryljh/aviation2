@@ -136,3 +136,10 @@ To be a little more precise, although the increasing trend of incidents in airsp
           <img src="daylightproportions.png" alt="Trend in incidents" width="400">
 </p>
 
+However, if we specialise airspace D incidents (FAR 121) to various 'Light' categories, the only category for which there is a clear increasing trend is the 'Not specified' Category, and the $p$-value for the increasing trend is now $p= 0.001$. 
+
+
+<p align="center">
+          <img src="airspaceDnolight.png" alt="Trend in incidents" width="400">
+</p>
+
