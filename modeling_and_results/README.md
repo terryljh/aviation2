@@ -43,7 +43,7 @@ We used SARIMA models because they are well-suited for time series data that exh
 
 
 ### SARIMA 121
-Here, we conducted the SARIMA with part 121. While the early years (e.g., 20065–2009) saw higher and more volatile accident counts, the SARIMA model predicts that future rates will remain comparatively lower and more stable. This may suggest improvements in safety protocols or technology, though further analysis would be needed to confirm causal factors.
+Here, we conducted the SARIMA with part 121. While the early years (e.g., 2005–2009) saw higher and more volatile accident counts, the SARIMA model predicts that future rates will remain comparatively lower and more stable. This may suggest improvements in safety protocols or technology, though further analysis would be needed to confirm causal factors.
 ![SARIMA 121](SARIMA_121.png)  
 ![SARIMA 121 Zoomed](SARIMA_121_Zoomed.png)  
 
