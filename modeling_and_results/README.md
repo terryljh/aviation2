@@ -30,7 +30,8 @@ To better understand trends in aviation accidents, we applied both linear regres
         - For Classes A, B, E airspace, and for those with airspace not specified, there is clear decrease in the incidents over time.
       <p align="center">
           <img src="airspaceA.png" alt="Trend in incidents" width="400">
-</p>
+      </p>
+      
         - For Class C airspace, there is no statistically significant trend. 
         - For Class D airspace, there is an *increase* in incidents over time, but it is only marginally significant ($p = 0.054$), on average around 50 incidents per year.
 -  If instead of commerical flights, we consider Far Part 91 (general aviation, non-commerical flights), accidents counts are *increasing* over time; test rejects hypothesis that coefficient of year is zero with $p < 0.016$. If we restrict to Far Part 135 (other types of commercial flights such as charter flights), it is unclear whether the accidents are increasing or decreasing over time (the test cannot reject hypothesis that coefficient of year is zero ($p > 0.05$)). There is much less data for Part 135 than 121 and 91 (about 60000 Part 121 accidents,  27000 Part 91, 4000 Part 135, 1000 other). 
