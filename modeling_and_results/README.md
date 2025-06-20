@@ -143,3 +143,5 @@ However, if we specialise airspace D incidents (FAR 121) to various 'Light' cate
           <img src="airspaceDnollight.png" alt="Trend in incidents" width="400">
 </p>
 
+Given the lower incident count in this category compared to other airspaces, there is a risk of overfitting here, but if there is any type of incident in airspace D usually reported with light 'Not Specified', then these kind of incidents should be investigated for potential safety improvements. 
+
