@@ -35,6 +35,14 @@ To better understand trends in aviation accidents, we applied both linear regres
 - The correlation coefficient between "year" and "pct_human_factors" (percent of accidents/incidents due to human factors) is $-0.328$, so "pct_human_factors" has decreased over time. Some of the decrease in monthly accidents over time is probably due to the decrease in accidents due to human factors. The main other "Primary Problem" for accidents other than human factors is "Aircraft". The correlation between "Year" and "pct_aircraft" (problems due to aircraft) is $+0.138$, so there is a slight increase in *percentage* of accidents due to aircraft problems over time. The $p$-values for these correlation coefficients have $p < 0.01$.  For the *total* monthly number of accidents due to "aircraft" instead of percentage, there is a slight negative correlation with year, so accidents due to aircraft have decreased over time, just less so compared to other categories, and the $p$-value for the correlation is not significant ($p \approx 0.08$).
 - If we redo the above but restrict to commercial flights (FAR Part 121), the accidents due to human factors are decreasing over time (both percentage and number), and the number of accidents due to aircraft is decreasing over time. We cannot reject the null hypothesis that the proportion of accidents due to aircraft has remained constant over time ($p \approx 0.72$).
 
-## SARIMAs
+## SARIMA Model Outputs
 
-![Accidents FAR 121](SARIMA_121.png)
+### Model Diagrams
+![SARIMA 121](images/SARIMA_121.png)  
+![SARIMA 121 Zoomed](images/SARIMA_121_Zoomed.png)  
+
+### Forecast Plots
+![SARIMA Forecast 121](images/SARIMA_Forcast_121.png)  
+![SARIMA Forecast 5 Years](images/SARIMA_Forecast_5_years.png)  
+![SARIMA Forecast 91](images/SARIMA_Forecast_91.png)  
+
