@@ -14,7 +14,7 @@ To better understand trends in aviation accidents, we applied both linear regres
           <img src="yearincidence121.png" alt="Trend in incidents" width="400">
 </p>
 
-  - If we further restrict incidents according to their "Primary Problem", then:
+  - If, still within FAR Part 121, we further restrict incidents according to their "Primary Problem", then:
     - There are no statistically significant trends for:
            - "Procedure" ($\sim 300$ incidents per year, but not introduced as a category until 2009)
            - "Weather" ($\sim 100$ incidents per year)
