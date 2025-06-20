@@ -140,6 +140,6 @@ However, if we specialise airspace D incidents (FAR 121) to various 'Light' cate
 
 
 <p align="center">
-          <img src="airspaceDnolight.png" alt="Trend in incidents" width="400">
+          <img src="airspaceDnollight.png" alt="Trend in incidents" width="400">
 </p>
 
