@@ -14,57 +14,68 @@ To better understand trends in aviation accidents, we applied both linear regres
           <img src="yearincidence121.png" alt="Trend in incidents" width="400">
 </p>
 
-  - If, still within FAR Part 121, we further restrict incidents according to their "Primary Problem", then:
-    - There are no statistically significant trends for:
-      - "Procedure" ($\sim 300$ incidents per year, but not introduced as a category until 2009)
-      - "Weather" ($\sim 100$ incidents per year)
-      - "Environment - Non Weather Related" ($\sim 75$ incidents per year)
-      - "ATC Equipment / Nav Facility / Buildings" ($\sim 50$ incidents per year),
-      -  "Chart or publication ($\sim 50$ incidents per year)
-      -  "Airspace structure ($\sim 20$ incidents per year)
-      -  "Software and Automation" ($\sim 20$ incidents per year)
-    - Incidents due to "Human Factors" are decreasing yearly ($p = 0.024$, $\sim 1000$ incidents per year, coefficient of year is $-22$).
-      <p align="center">
-          <img src="humanfactors.png" alt="Trend in incidents" width="400">
-      </p>
-    - Incidents due to "Aircraft" are decreasing yearly ($p = 0.014$, $\sim 1000$ incidents per year, coefficient of year is $-24.78$),
-      <p align="center">
-          <img src="aircraft.png" alt="Trend in incidents" width="400">
-      </p>
-    - Incidents due to "Company Policy" are decreasing yearly ($p = 0.000$, coefficient of year is $-17.23$). On average there were around 100 incidents per year due to "Company Policy", but by 2023 they decreased to effectively zero. This is one of the most significant part of this particular dataset; it seems to suggest that companies are actually responding quite well to feedback, especially considering that the ASRS data is anonymised. The variance is fairly well explained by the linear fit ($R^2 = 0.710$). 
-      <p align="center">
-          <img src="companypolicy.png" alt="Trend in incidents" width="400">
-      </p>
-    - At a guess, only 50% of incidents report information about the airspace, but if we restrict incidents to airspace, then:
-      - For Classes A, B, E airspace, and for those with airspace not specified, there is clear decrease in the incidents over time.<table>
-  <tr>
-    <td align="center">
-      <img src="airspaceA.png" alt="Airspace A" width="300"><br>
-      <sub>Airspace A</sub>
-    </td>
-    <td align="center">
-      <img src="airspaceB.png" alt="Airspace B" width="300"><br>
-      <sub>Airspace B</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="airspaceE.png" alt="Airspace E" width="300"><br>
-      <sub>Airspace E</sub>
-    </td>
-    <td align="center">
-      <img src="noairspace.png" alt="No Airspace" width="300"><br>
-      <sub>No Airspace</sub>
-    </td>
-  </tr>
-</table> 
+- If, still within FAR Part 121, we further restrict incidents according to their "Primary Problem", then:
+  - There are no statistically significant trends for:
+    - "Procedure" ($\sim 300$ incidents per year, but not introduced as a category until 2009)
+    - "Weather" ($\sim 100$ incidents per year)
+    - "Environment - Non Weather Related" ($\sim 75$ incidents per year)
+    - "ATC Equipment / Nav Facility / Buildings" ($\sim 50$ incidents per year),
+    - "Chart or publication ($\sim 50$ incidents per year)
+    - "Airspace structure ($\sim 20$ incidents per year)
+    - "Software and Automation" ($\sim 20$ incidents per year)
+  - Incidents due to "Human Factors" are decreasing yearly ($p = 0.024$, $\sim 1000$ incidents per year, coefficient of year is $-22$).
 
-   - For Class C airspace, there is no statistically significant trend. 
-   - For Class D airspace, there is an increase in incidents over time, but it is only marginally significant ($p = 0.054$), on average around 50 incidents per year.
+    <p align="center">
+      <img src="humanfactors.png" alt="Trend in incidents" width="400">
+    </p>
+
+  - Incidents due to "Aircraft" are decreasing yearly ($p = 0.014$, $\sim 1000$ incidents per year, coefficient of year is $-24.78$),
+
+    <p align="center">
+      <img src="aircraft.png" alt="Trend in incidents" width="400">
+    </p>
+
+  - Incidents due to "Company Policy" are decreasing yearly ($p = 0.000$, coefficient of year is $-17.23$). On average there were around 100 incidents per year due to "Company Policy", but by 2023 they decreased to effectively zero. This is one of the most significant part of this particular dataset; it seems to suggest that companies are actually responding quite well to feedback, especially considering that the ASRS data is anonymised. The variance is fairly well explained by the linear fit ($R^2 = 0.710$). 
+
+    <p align="center">
+      <img src="companypolicy.png" alt="Trend in incidents" width="400">
+    </p>
+
+  - At a guess, only 50% of incidents report information about the airspace, but if we restrict incidents to airspace, then:
+    - For Classes A, B, E airspace, and for those with airspace not specified, there is clear decrease in the incidents over time.
+
+      <table>
+        <tr>
+          <td align="center">
+            <img src="airspaceA.png" alt="Airspace A" width="300"><br>
+            <sub>Airspace A</sub>
+          </td>
+          <td align="center">
+            <img src="airspaceB.png" alt="Airspace B" width="300"><br>
+            <sub>Airspace B</sub>
+          </td>
+        </tr>
+        <tr>
+          <td align="center">
+            <img src="airspaceE.png" alt="Airspace E" width="300"><br>
+            <sub>Airspace E</sub>
+          </td>
+          <td align="center">
+            <img src="noairspace.png" alt="No Airspace" width="300"><br>
+            <sub>No Airspace</sub>
+          </td>
+        </tr>
+      </table>
+
+    - For Class C airspace, there is no statistically significant trend. 
+    - For Class D airspace, there is an increase in incidents over time, but it is only marginally significant ($p = 0.054$), on average around 50 incidents per year.
+
       <p align="center">
         <img src="airspaceD.png" alt="Trend in incidents" width="400">
       </p>
+
 - If instead of commercial flights, we consider FAR Part 91 (general aviation, non-commercial flights), incident counts are increasing over time ($p = 0.016$). Because reporting incidents for Part 91 flights is likely less standardised than for commercial flights, it is possible the increasing trend here is the result of increased reporting (or just an increased number of flights taken).
+
  
   <p align="center">
           <img src="far91.png" alt="Trend in incidents" width="400">
