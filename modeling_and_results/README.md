@@ -66,6 +66,7 @@ To better understand trends in aviation accidents, we applied both linear regres
      <p align="center">
           <img src="airspaceD.png" alt="Trend in incidents" width="400">
      </p>
+     
 - If instead of commerical flights, we consider Far Part 91 (general aviation, non-commerical flights), incident counts are increasing over time ($p = 0.016$). Because reporting incidents for Part 91 flights is likely less standardised than for commerical flights, it is possible the increasing trend here is result of increased reporting (or just an increased number of flights taken). 
   <p align="center">
           <img src="far91.png" alt="Trend in incidents" width="400">
