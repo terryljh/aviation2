@@ -89,7 +89,11 @@ To better understand trends in aviation accidents, we applied both linear regres
 $$y(t) = \beta_0 + \beta_1 t + \sum_{k=1}^{K} \left[ \alpha_k \sin\left(2\pi k \cdot \frac{t}{12} \right) + \gamma_k \cos\left(2\pi k \cdot \frac{t}{12} \right) \right]
 $$ 
 
-fitting the data, where time $t$ is measured in years, and $K$ is to be chosen. From the one-hot encoding attempt, we expect a dip in February and a peak in mid-summer (July), so $K=2$ should be enough to capture these seasonal effects (or any effect with a period of 6 months). 
+fitting the data, where time $t$ is measured in years, and $K$ is to be chosen. From the one-hot encoding attempt, we expect a dip in February and a peak in mid-summer (July), so $K=2$ should be enough to capture these seasonal effects (or any effect with a period of 6 months). The best curve fitted to the training data is shown below. 
+
+<p align="center">
+          <img src="2periods.png" alt="Trend in incidents" width="400">
+</p>
 
 - If we specialise instead to Part 91 flights, than almost every non-Winter month has a statistically significant positive coefficient (this is likely because far fewer Part 91 flights occur during the Winter, whereas Part 121 flights continue throughout Winter).
 
