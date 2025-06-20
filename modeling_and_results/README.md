@@ -38,11 +38,11 @@ To better understand trends in aviation accidents, we applied both linear regres
 ## SARIMA Model Outputs
 
 ### Model Diagrams
-![SARIMA 121](images/SARIMA_121.png)  
-![SARIMA 121 Zoomed](images/SARIMA_121_Zoomed.png)  
+![SARIMA 121](SARIMA_121.png)  
+![SARIMA 121 Zoomed](SARIMA_121_Zoomed.png)  
 
 ### Forecast Plots
-![SARIMA Forecast 121](images/SARIMA_Forcast_121.png)  
-![SARIMA Forecast 5 Years](images/SARIMA_Forecast_5_years.png)  
-![SARIMA Forecast 91](images/SARIMA_Forecast_91.png)  
+![SARIMA Forecast 121](SARIMA_Forcast_121.png)  
+![SARIMA Forecast 5 Years](SARIMA_Forecast_5_years.png)  
+![SARIMA Forecast 91](SARIMA_Forecast_91.png)  
 
