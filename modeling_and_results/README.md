@@ -9,13 +9,14 @@ To better understand trends in aviation accidents, we applied both linear regres
   <img src="yearvsincident.png" alt="Trend in incidents" width="400">
 </p>
 
-  -  If we redo this considering only data from commerical flights (FAR Part 121), there is much less unexplained variance ($R^2 = 0.696$), and there is still a clear decreasing trend over time ($p=0.000$).
-<p align="center">
-<img src="yearincidence121.png" alt="Trend in incidents" width="400"> 
-</p>
-  
-  -  If we further restrict incidents according to their "Primary Problem", then:
-        - There are no statistically significant trends for:
+ - If we redo this considering only data from commercial flights (FAR Part 121), there is much less unexplained variance ($R^2 = 0.696$), and there is still a clear decreasing trend over time ($p=0.000$).
+
+        <p align="center">
+          <img src="yearincidence121.png" alt="Trend in incidents" width="400">
+        </p>
+
+        - If we further restrict incidents according to their "Primary Problem", then:
+            - There are no statistically significant trends for:
            - "Procedure" ($\sim 300$ incidents per year, but not introduced as a category until 2009)
            - "Weather" ($\sim 100$ incidents per year)
            - "Environment - Non Weather Related" ($\sim 75$ incidents per year)
