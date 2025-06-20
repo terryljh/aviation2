@@ -10,7 +10,7 @@ To better understand trends in aviation accidents, we applied both linear regres
 
   -  If we redo this only on commerical flights (FAR Part 121), the $R^2$ value increased to $0.702$ (adjusted $0.679$), and the $p$ value for the coefficient of year is zero (to 3 decimal places).
 <p align="center">
-  <img src="yearvsincidence121.png" alt="Trend in incidents" width="400">
+  <img src="yearincidence121.png" alt="Trend in incidents" width="400">
     -  If we further restrict incidents according to their "Primary Problem", then:
         - There are no statistically significant trends for:
            - "Procedure" ($\sim 300$ incidents per year, but not introduced as a category until 2009)
