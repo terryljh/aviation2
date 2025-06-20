@@ -125,9 +125,8 @@ Here, we conducted the SARIMA with part 91. While the early years (e.g., 2005-20
 With a five year forecast, it appears that accident rates tend to stay relatively low.
 ![SARIMA Forecast 5 Years](SARIMA_Forecast_5_years.png) 
 
-## Conclusion
+## Conclusion and recommendations
 
-### Recommendations
 For commercial (FAR Part 121) flights, the only airspace with some evidence for an increasing trend of incidents was airspace D. This suggests that factors unique to this airspace could warrant further investigation for safety improvements. For example, one factor that distinguishes airspace D from airspaces A, B, C is that primary airports in airspace D do not provide radar services, so one recommendation could be improved training in settings without radar services. Another factor could be that reduced ATC staffing in smaller airports using airspace D could lead to more incidents, so another suggestion could be reallocation of some ATC to airspace D airports, if possible. Of course, given the dataset reports only incidents but not incident *rates*, further work would be needed using other datasets to check whether the causes of the incidents increasing is not explained by a simple increase in the amount of flights operating through airspace D.  
 
 To be a little more precise, although the increasing trend of incidents in airspace D is marginal ($p= 0.054$), we can split the data further according to 'Light', which has five categories: 'Daylight', 'Night', 'Dusk', 'Dawn', and 'Not Specified'. Looking at a graph of incidents separated by 'Light' over time shows that the 'Daylight' and 'Not Specified' proportions are nearly reflections of each other, suggesting that most incidents recorded as 'Not Specified' are likely those which occured in 'Daylight' or for which 'Light' was not a contributing factor. 
