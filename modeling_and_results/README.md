@@ -31,6 +31,9 @@ To better understand trends in aviation accidents, we applied both linear regres
       <p align="center">
           <img src="airspaceA.png" alt="Trend in incidents" width="400">
       </p>
+      <p align="center">
+          <img src="airspaceB.png" alt="Trend in incidents" width="400">
+      </p>
       
         - For Class C airspace, there is no statistically significant trend. 
         - For Class D airspace, there is an *increase* in incidents over time, but it is only marginally significant ($p = 0.054$), on average around 50 incidents per year.
