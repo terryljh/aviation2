@@ -36,3 +36,5 @@ To better understand trends in aviation accidents, we applied both linear regres
 - If we redo the above but restrict to commercial flights (FAR Part 121), the accidents due to human factors are decreasing over time (both percentage and number), and the number of accidents due to aircraft is decreasing over time. We cannot reject the null hypothesis that the proportion of accidents due to aircraft has remained constant over time ($p \approx 0.72$).
 
 ## SARIMAs
+
+![Accidents FAR 121](SARIMA_121.png)
