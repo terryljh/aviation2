@@ -32,6 +32,9 @@ To better understand trends in aviation accidents, we applied both linear regres
           <img src="aircraft.png" alt="Trend in incidents" width="400">
       </p>
     - Incidents due to "Company Policy" are decreasing yearly ($p = 0.000$, coefficient of year is $-17.23$). On average there were around 100 incidents per year due to "Company Policy", but by 2023 they decreased to effectively zero.
+      <p align="center">
+          <img src="companypolicy.png" alt="Trend in incidents" width="400">
+      </p>
     - At a guess, only 50% of incidents report information about the airspace, but if we restrict incidents to airspace, then:
         - For Classes A, B, E airspace, and for those with airspace not specified, there is clear decrease in the incidents over time.
 
