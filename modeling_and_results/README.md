@@ -41,10 +41,10 @@ To better understand trends in aviation accidents, we applied both linear regres
 ![SARIMA 121](SARIMA_121.png)  
 ![SARIMA 121 Zoomed](SARIMA_121_Zoomed.png)  
 
-##SARIMA 121 in 5 years
+## SARIMA 121 in 5 years
 ![SARIMA Forecast 121](SARIMA_Forcast_121.png)  
 
-#$SARIMA 91 
+## SARIMA 91 
 ![SARIMA Forecast 91](SARIMA_Forecast_91.png)  
 ![SARIMA Forecast 5 Years](SARIMA_Forecast_5_years.png) 
 
