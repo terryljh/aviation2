@@ -23,7 +23,10 @@ To better understand trends in aviation accidents, we applied both linear regres
       -  "Chart or publication ($\sim 50$ incidents per year)
       -  "Airspace structure ($\sim 20$ incidents per year)
       -  "Software and Automation" ($\sim 20$ incidents per year)
-    - Incidents due to "Human Factors" are decreasing yearly ($p = 0.024$, $\sim 1000$ incidents per year, coefficient of year is $-22$),
+    - Incidents due to "Human Factors" are decreasing yearly ($p = 0.024$, $\sim 1000$ incidents per year, coefficient of year is $-22$).
+      <p align="center">
+          <img src="humanfactors.png" alt="Trend in incidents" width="400">
+      </p>
     - Incidents due to "Aircraft" are decreasing yearly ($p = 0.014$, $\sim 1000$ incidents per year, coefficient of year is $-24.78$),
     - Incidents due to "Company Policy" are decreasing yearly ($p = 0.000$, coefficient of year is $-17.23$). On average there were around 100 incidents per year due to "Company Policy", but by 2023 they decreased to effectively zero.
     - At a guess, only 50% of incidents report information about the airspace, but if we restrict incidents to airspace, then:
