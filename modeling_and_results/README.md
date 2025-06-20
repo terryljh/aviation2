@@ -132,3 +132,7 @@ For commercial (FAR Part 121) flights, the only airspace with some evidence for 
 
 To be a little more precise, although the increasing trend of incidents in airspace D is marginal ($p= 0.054$), we can split the data further according to 'Light', which has five categories: 'Daylight', 'Night', 'Dusk', 'Dawn', and 'Not Specified'. Looking at a graph of incidents separated by 'Light' over time shows that the 'Daylight' and 'Not Specified' proportions are nearly reflections of each other, suggesting that most incidents recorded as 'Not Specified' are likely those which occured in 'Daylight' or for which 'Light' was not a contributing factor. 
 
+<p align="center">
+          <img src="lightproportions.png" alt="Trend in incidents" width="400">
+</p>
+
