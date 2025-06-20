@@ -70,6 +70,7 @@ To better understand trends in aviation accidents, we applied both linear regres
   <p align="center">
           <img src="far91.png" alt="Trend in incidents" width="400">
   </p>
+  
 - If we restrict to Far Part 135 (other types of commercial flights such as charter flights), there is no statistically significant trend. There is much less data for Part 135 than 121 and 91 (about 60000 Part 121 accidents,  27000 Part 91, 4000 Part 135, 1000 other).
 
 - If we do an ordinary linear regression with year as a feature variable and months as categorical variables, with "number of accidents per month" as the target variable, only July has a statistically significant positive coefficient, meaning that more accidents are expected in July than January. If we specialise this to just Part 121 flights, the only statistically significant month is February which has a negative coefficient (less accidents in February versus January), which could even be due to February having the least number of days. If we specialise instead to Part 91 flights, than almost every non-Winter month has a statistically significant positive coefficient (this is likely because far fewer Part 91 flights occurr during the Winter, whereas Part 121 flights continue throughout Winter). So it seems that months are important to use as categorical variables for Part 91 flights, but not necessarily for Part 121 flights. 
