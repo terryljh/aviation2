@@ -131,8 +131,7 @@ With a five year forecast, it appears that accident rates tend to stay relativel
 
 ## Conclusion and recommendations
 
-For commercial (FAR Part 121) flights, the only airspace with some evidence for an increasing trend of incidents was airspace D. This suggests that factors unique to this airspace could warrant further investigation for safety improvements. For example, one factor that distinguishes airspace D from airspaces A, B, C is that primary airports in airspace D do not provide radar services, so one recommendation could be improved training in settings without radar services. Another factor could be that reduced ATC staffing in smaller airports using airspace D could lead to more incidents, so another suggestion could be reallocation of some ATC to airspace D airports, if possible. Of course, given the dataset reports only incidents but not incident *rates*, further work would be needed using other datasets to check whether the causes of the incidents increasing is not explained by a simple increase in the amount of flights operating through airspace D.  
-
+For commercial (FAR Part 121) flights, the only airspace with some evidence for an increasing trend of incidents was airspace D. As mentioned above, this may be due to increasing reliance on 'Human Factors' in airspace D versus in comparison to busier airports. However, we caution that while there is an increasing trend in airspace D, the *total* number of incidents is quite low, so it is important to check if similar conclusions can be drawn from other datasets. For instance, our datasets counts only the *number* of incidents instead of the *rate* of incidents, so it may be that the use of airspace D is simply increasing over time, rather than airspace D becoming less safe. 
 
 
 
