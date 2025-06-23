@@ -73,6 +73,10 @@ To better understand trends in aviation accidents, we applied both linear regres
       <p align="center">
         <img src="airspaceD.png" alt="Trend in incidents" width="400">
       </p>
+    If we look a bit further into the cause of this increase, one hypothesis might be that the sometimes limited radar services in Class D may lead to heavier reliance on 'Human Factors'. If we restrict incidents to those for which 'Human Factors' is a contributing factor, the trend becomes much clearer ($p=0.001$):
+    <p align="center">
+        <img src="classDhumanfactors.png" alt="Trend in incidents" width="400">
+      </p>
 
 - If instead of commercial flights, we consider FAR Part 91 (general aviation, non-commercial flights), incident counts are increasing over time ($p = 0.016$). Because reporting incidents for Part 91 flights is likely less standardised than for commercial flights, it is possible the increasing trend here is the result of increased reporting (or just an increased number of flights taken).
 
