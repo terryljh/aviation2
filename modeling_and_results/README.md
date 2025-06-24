@@ -120,14 +120,14 @@ With a five year forecast, it appears that accident rates tend to stay relativel
 ![SARIMA 121_Extended](SARIMA_121_Extended.png) 
 
 ## SARIMA 121 in 5 years
-![SARIMA Forecast 121](SARIMA_Forcast_121.png)  
+![SARIMA Forecast 121](SARIMA_Forecast_5_years_2.png)  
 
 ## SARIMA 91 
 Here, we conducted the SARIMA with part 91. While the early years (e.g., 2005-2009) saw higher and more volatile accident counts, the SARIMA model predicts that future rates will remain comparatively lower and more stable. This may suggest improvements in safety protocols or technology, though again, further analysis would be needed to confirm causal factors.
 ![SARIMA Forecast 91](SARIMA_Forecast_91.png) 
 
 With a five year forecast, it appears that accident rates tend to stay relatively low.
-![SARIMA Forecast 5 Years](SARIMA_Forecast_5_Years_2.png) 
+![SARIMA Forecast 5 Years](SARIMA_Forecast_5_years.png) 
 
 ## Conclusion and recommendations
 
