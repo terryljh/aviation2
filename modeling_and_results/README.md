@@ -131,6 +131,8 @@ With a five year forecast, it appears that accident rates tend to stay relativel
 
 ## Checking the test data
 
+We first check if, in the test data, the incidents in airspace $D$ for which "Human Factors" were a contributing factor, still have a positive correlation. 
+
 ## Conclusion and recommendations
 
 For commercial (FAR Part 121) flights, the only airspace with some evidence for an increasing trend of incidents was airspace D. As mentioned above, this may be due to increasing reliance on 'Human Factors' in airspace D versus in comparison to busier airports. However, we caution that while there is an increasing trend in airspace D, the *total* number of incidents is quite low, so it is important to check if similar conclusions can be drawn from other datasets. For instance, our datasets counts only the *number* of incidents instead of the *rate* of incidents, so it may be for example that the use of airspace D is simply increasing over time, rather than airspace D becoming less safe. 
